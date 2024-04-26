@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wcajisacaExamen.Vistas.Resumen"
+             Title="Resumen">
+    <VerticalStackLayout
+        Padding="20"
+        Spacing="10">
+        <Label 
+            Text="RESUMEN"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="NOMBRE"
+                TextColor="Blue"
+                Grid.Row="0"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtNombre"
+                   IsEnabled="False"
+                Grid.Row="0"
+                Grid.Column="1"/>
+
+            <Label Text="APELLIDO"
+                TextColor="Blue"
+                Grid.Row="1"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtApellido"
+                   IsEnabled="False"
+                Grid.Row="1"
+                Grid.Column="1"/>
+            
+            <Label Text="EDAD"
+                TextColor="Blue"
+                Grid.Row="2"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtEdad"
+                   IsEnabled="False"
+                Grid.Row="2"
+                Grid.Column="1"/>
+
+            <Label Text="FECHA"
+                TextColor="Blue"
+                Grid.Row="3"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtFecha"
+                   IsEnabled="False"
+                Grid.Row="3"
+                Grid.Column="1"/>
+
+            <Label Text="CIUDAD"
+                TextColor="Blue"
+                Grid.Row="4"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtCiudad"
+                   IsEnabled="False"
+                Grid.Row="4"
+                Grid.Column="1"/>
+
+            <Label Text="PAIS"
+                TextColor="Blue"
+                Grid.Row="5"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtPais"
+                   IsEnabled="False"
+                Grid.Row="5"
+                Grid.Column="1"/>
+
+            <Label Text="MONTO INICIAL"
+                TextColor="Blue"
+                Grid.Row="6"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtMInicial"
+                   IsEnabled="False"
+                Grid.Row="6"
+                Grid.Column="1"/>
+
+            <Label Text="PAGO MENSUAL"
+                TextColor="Blue"
+                Grid.Row="7"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtPMensual"
+                   IsEnabled="False"
+                Grid.Row="7"
+                Grid.Column="1"/>
+
+            <Label Text="PAGO TOTAL"
+                TextColor="Blue"
+                Grid.Row="8"
+                Grid.Column="0"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
+                />
+
+            <Entry x:Name="txtPTotal"
+                   IsEnabled="False"
+                Grid.Row="8"
+                Grid.Column="1"/>
+
+        </Grid>
+
+        <Button
+            x:Name="btnCerrarS"
+            Text="Cerrar Session"
+            TextColor="White"
+            Clicked="btnCerrarS_Clicked"
+            BackgroundColor="Red"
+                Grid.Row="9"
+                Grid.Column="0"
+                />
+    </VerticalStackLayout>
+</ContentPage>

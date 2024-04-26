@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcajisacaExamen", "wcajisacaExamen.csproj", "{60EA5B0B-2E83-487A-B250-3E0EF17A55FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60EA5B0B-2E83-487A-B250-3E0EF17A55FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EA5B0B-2E83-487A-B250-3E0EF17A55FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EA5B0B-2E83-487A-B250-3E0EF17A55FE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{60EA5B0B-2E83-487A-B250-3E0EF17A55FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EA5B0B-2E83-487A-B250-3E0EF17A55FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EA5B0B-2E83-487A-B250-3E0EF17A55FE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C702AEB-2C2F-47B8-9CA2-5309DCB90E3C}
+	EndGlobalSection
+EndGlobal

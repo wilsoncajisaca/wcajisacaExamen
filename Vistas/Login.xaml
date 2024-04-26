@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wcajisacaExamen.Vistas.Login"
+             Title="Login">
+    <VerticalStackLayout
+        Spacing="20"
+        Margin="25"
+        Padding="25">
+        <Label 
+            Text="INICIO DE SESSION"
+            TextColor="Red"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png"
+               Aspect="AspectFit" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Text="USUARIO"
+           TextColor="Blue"
+           Grid.Row="0"
+           Grid.Column="0"
+           VerticalTextAlignment="Center"
+           HorizontalTextAlignment="Center"
+           />
+            <Entry x:Name="txtUsuario"
+                Placeholder="INGRESE SU NOMBRE"
+                   Grid.Row="0"
+                   Grid.Column="1"/>
+                    <Label Text="CONTRASEÑA"
+                   TextColor="Blue"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"
+                   />
+            <Entry x:Name="txtContrasena"
+                Placeholder="INGRESE SU CONTRASEÑA" 
+                   IsPassword="True"
+                   Grid.Row="1"
+                   Grid.Column="1"/>        
+            <Button
+                x:Name="btnInicio"
+                Text="INICIAR SESIÓN"
+                Clicked="btnInicio_Clicked"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    />
+            <Button
+                x:Name="btnAcerca"
+                Text="ACERCA DE"
+                Clicked="btnAcerca_Clicked"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    />
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
